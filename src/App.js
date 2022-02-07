@@ -14,11 +14,21 @@ import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA></LifeCycleA>
+      
+      <FRParentInput> </FRParentInput>
+
+      {/* <FocusInput></FocusInput> */}
+
+      {/* <RefsDemo> </RefsDemo> */}
+
+      {/* <LifeCycleA></LifeCycleA> */}
       
       {/* <Form></Form> */}
 
